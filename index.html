@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<script src="app.js"></script>
+<script src="style.css"></script>
+<html>
+<head>
+	<style>
+		table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 50px;
+}
+	</style>
+	<title>tic tac toe</title>
+</head>
+<body>
+<h1>tic tac toe (game)</h1>
+<p id="winsP1">Player 1 wins  =  0</p>
+<p id="winsP2">Player 2 wins  =  0</p>
+<p id="player">Player 1 turns</p>
+<table style="width: 1%">
+	<tr>
+		<th id="1" onclick="onClick(1)"></th>
+		<th id="2" onclick="onClick(2)"></th>
+		<th id="3" onclick="onClick(3)"></th>
+	</tr>
+	<tr>
+		<th id="4" onclick="onClick(4)"></th>
+		<th id="5" onclick="onClick(5)"></th>
+		<th id="6" onclick="onClick(6)"></th>
+	</tr>
+	<tr>
+		<th id="7" onclick="onClick(7)"></th>
+		<th id="8" onclick="onClick(8)"></th>
+		<th id="9" onclick="onClick(9)"></th>
+	</tr>
+</table>
+<button id="reset" onclick="reset()">reset the game</button>
+
+</body>
+</html>
